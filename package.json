@@ -1,12 +1,12 @@
 {
-  "name": "multiroom_chat",
+  "name": "dreamteam",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sistema web para marcar um jogo de futebol com os amigos",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"    
   },
-  "author": "Jorge",
+  "author": "Glauber",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
@@ -15,5 +15,7 @@
     "express": "^4.14.0",
     "express-session": "^1.15.6",
     "express-validator": "^2.20.8"
+  },"devDependencies": {
+    "nodemon": "*"
   }
 }
